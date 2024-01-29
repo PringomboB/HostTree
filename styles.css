@@ -20,6 +20,8 @@ body {
 .heritage-image {
     display: block;
     margin: 10px auto;
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain the aspect ratio */
 }
 
 
